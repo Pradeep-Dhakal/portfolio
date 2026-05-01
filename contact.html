@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Pradip Dhakal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-brand">Pradip <span>Dhakal</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="reflections.html">Reflections</a></li>
+      <li><a href="career.html">Career Development</a></li>
+      <li><a href="evidence.html">Evidence</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="section-label">Get in Touch</span>
+      <h1>Contact</h1>
+      <p>I'd love to hear from you. Whether it's a job opportunity, collaboration, or just a conversation — reach out.</p>
+    </div>
+  </div>
+</div>
+
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="grid-2" style="gap:60px;align-items:start;">
+
+      <!-- CONTACT INFO -->
+      <div class="fade-in-up">
+        <span class="section-label">Details</span>
+        <h2 style="margin-bottom:32px;">Contact Information</h2>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <p>pradip.dhakal@email.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+61 400 000 000</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Queensland, Australia</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">🔗</div>
+          <div>
+            <h4>LinkedIn</h4>
+            <p style="color:var(--teal);">linkedin.com/in/pradipdhakal</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">🐙</div>
+          <div>
+            <h4>GitHub</h4>
+            <p style="color:var(--teal);">github.com/pradipdhakal</p>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="highlight-box">
+          <h4 style="margin-bottom:8px;">Open to Opportunities</h4>
+          <p style="font-size:0.875rem;margin:0;">I am actively looking for junior or entry-level software developer positions in Australia. I am available for full-time roles, graduate programs, and internships.</p>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="fade-in-up">
+        <span class="section-label">Message</span>
+        <h2 style="margin-bottom:32px;">Send a Message</h2>
+
+        <div id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" />
+            <div class="field-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+            <div class="field-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Job Opportunity — Junior Developer" />
+            <div class="field-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="6"></textarea>
+            <div class="field-error"></div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" onclick="document.getElementById('contactForm').dispatchEvent(new Event('submit'))">
+            Send Message
+          </button>
+        </div>
+
+        <div id="formSuccess" class="form-success">
+          <div class="success-icon">✅</div>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<section style="background:var(--navy);padding:60px 0;">
+  <div class="container">
+    <div style="text-align:center;" class="fade-in-up">
+      <span class="section-label">Location</span>
+      <h2 style="color:var(--white);margin-bottom:16px;">Based in Queensland, Australia</h2>
+      <p style="color:rgba(255,255,255,0.45);max-width:480px;margin:0 auto;">Open to positions across Queensland and willing to consider remote work and relocation for the right opportunity.</p>
+      <div style="display:flex;justify-content:center;gap:20px;margin-top:32px;flex-wrap:wrap;">
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:18px 28px;text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🏙️</div>
+          <div style="font-size:0.85rem;color:rgba(255,255,255,0.6);">Queensland, AU</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:18px 28px;text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🌐</div>
+          <div style="font-size:0.85rem;color:rgba(255,255,255,0.6);">Remote Friendly</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:18px 28px;text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">✈️</div>
+          <div style="font-size:0.85rem;color:rgba(255,255,255,0.6);">Open to Relocation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Pradip Dhakal</h3>
+        <p>Aspiring Software Developer · Australia</p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Pages</h4>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>More</h4>
+        <a href="reflections.html">Reflections</a>
+        <a href="career.html">Career Development</a>
+        <a href="evidence.html">Evidence</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Pradip Dhakal. ePortfolio — University Assessment Submission.</p>
+      <p>Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
